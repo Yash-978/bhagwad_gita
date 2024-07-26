@@ -29,6 +29,8 @@ class ShlokPage extends StatelessWidget {
     double h = MediaQuery.of(context).size.height;
     double w = MediaQuery.of(context).size.width;
 
+
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xff320D0A),
