@@ -6,6 +6,7 @@ import 'Screens/HomeScreen/HomePage.dart';
 import 'Screens/HomeScreen/homePageProvider.dart';
 import 'Screens/ShlokScreen/ShlokPage.dart';
 import 'Screens/ShlokScreen/shlokProvider.dart';
+import 'Screens/SplashScreen/SplashPage.dart';
 import 'Screens/shlokPreview.dart';
 
 void main() {
@@ -37,10 +38,12 @@ class MyApp extends StatelessWidget {
         // theme: ThemeData.light(),
         // darkTheme: ThemeData.dark(),
         // themeMode: ThemeMode.system,
+        initialRoute: '/splash',
         routes: {
           '/': (context) => HomePage(),
           '/shlok': (context) => ShlokPage(),
           '/shlokPreview': (context) => ShlokPreviewPage(),
+          '/splash': (context) => SplashPage(),
         },
       ),
     );
